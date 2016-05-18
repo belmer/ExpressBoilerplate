@@ -1,0 +1,30 @@
+{
+  "name": "express-template-file",
+  "version": "0.0.0",
+  "description": "{dna:micro}",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "NODE_ENV=development node ./bin/www",
+    "prod": "NODE_ENV=production node ./bin/www",
+    "pm2_prod": "NODE_ENV=production pm2 start ./bin/www --name=expressApp",
+    "pm2_dev": "NODE_ENV=development pm2 start ./bin/www --name=expressApp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/belmer/ExpressBoilerplate.git"
+  },
+  "author": "Belmer Salonoy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "cookie-parser": "^1.3.5",
+    "debug": "^2.2.0",
+    "express": "^4.12.4",
+    "jade": "^1.10.0",
+    "morgan": "^1.5.3",
+    "nconf": "^0.7.1",
+    "node-zoho": "0.0.18",
+    "serve-favicon": "^2.2.1"
+  }
+}
