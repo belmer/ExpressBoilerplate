@@ -91,7 +91,7 @@ function onListening() {
   var addr = server.address();
   var bind = typeof addr === 'string'
     ? 'pipe ' + addr
-    : 'port ' + addr.port;
+    : '[Started on Port]: ' + addr.port;
   debug('Listening on ' + bind);
  console.log(bind);
 }
