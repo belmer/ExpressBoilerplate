@@ -9,17 +9,17 @@ A Boilerplate for creating web application using:
 
 # Folder Structure
 
-**bin**
+**[bin]**
 
 	| www [This is the entry point of our application]
 
-**config** [Configuration folder]
+**[config]** [Configuration folder]
 
 	| default.json
 	| development.json
 	| production.json
 
-**public** [Files accessible publicly are here]
+**[public]** [Files accessible publicly are here]
 
 	| css
 	| fonts
@@ -28,18 +28,18 @@ A Boilerplate for creating web application using:
 		| vendor
 		| main.js [Main javascript file]
 
-**routes** [Express routing]
+**[routes]** [Express routing]
 
 	| index.js [Routes are here]
 	| zoho.js [zoho utility]
 
-**views** [pages and jade files are here]
+**[views]** [pages and jade files are here]
 
 	| includes [Should you decide to modularize your page, put your components here]
 	| index.jade [Page Index]
 
-**app.js** [Express instance]
-**package.json** [Application configuration]
+**[app.js]** [Express instance]
+**[package.json]** [Application configuration]
 
 
 # Run Scripts
