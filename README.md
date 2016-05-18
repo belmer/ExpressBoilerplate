@@ -47,7 +47,7 @@ A Boilerplate for creating web application using:
 
 # How to Run/ Run Scripts
 
-	*Make sure you run "npm install" to install all project dependencies
+Make sure you run "npm install" to install all project dependencies
 
 **npm start** 
 	
