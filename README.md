@@ -61,6 +61,8 @@ Make sure you run `npm install` to install all project dependencies
 	
 	Run application on production configuration
 
+# Run with PM2
+
 **npm run pm2_prod** 
 	
 	Add application to pm2 process using production configuration
