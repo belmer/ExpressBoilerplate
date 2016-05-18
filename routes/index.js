@@ -10,8 +10,4 @@ router.get('/', function(req, res, next) {
 });
 
 
-// **************** POST
-
-router.post('/zoho',  zoho.insert);
-
 module.exports = router;
