@@ -45,7 +45,9 @@ A Boilerplate for creating web application using:
 **[package.json]** [Application configuration]
 
 
-# Run Scripts
+# How to Run/ Run Scripts
+
+	*Make sure you run "npm install" to install all project dependencies
 
 **npm start** 
 	
